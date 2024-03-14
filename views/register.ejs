@@ -1,0 +1,33 @@
+<h1 style="text-align: center">Register</h1>
+<form
+  style="width: 100%; height: auto; text-align: center"
+  action="/auth/register"
+  method="post"
+>
+  <section style="margin: 0.5rem">
+    <label for="username">Username</label>
+    <input
+      style="padding: 8px"
+      type="text"
+      id="username"
+      name="username"
+      autofocus
+      required
+    />
+  </section>
+  <section style="margin: 0.5rem">
+    <label for="password">Password</label>
+    <input
+      style="padding: 8px"
+      type="text"
+      id="password"
+      name="password"
+      autofocus
+      required
+    />
+  </section>
+  <button style="padding: 10px; width: 200px" type="submit">Sign up</button>
+</form>
+<a style="font-size: 18px; display: block; text-align: center" href="/login"
+  >sign in here</a
+>
